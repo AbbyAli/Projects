@@ -31,18 +31,23 @@ button {
 
 /** This is for the border around the questions being generated as well as the style of the border **/
 #question {
+    .container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Optional: center vertically */
+    height: 100vh; /* Optional: full viewport height */
+}
+
+#question {
     border: 2px solid black;
     box-sizing: border-box;
-    max-width: 90%; /* Responsive width */
-    min-height: 150px; /* Ensures minimum height */
-    height: auto; /* Dynamic height based on content */
-    padding: 20px; /* Adjust padding for readability */
-    margin: 20px auto; /* Center box on the page */
+    max-width: 90%;
+    width: 900px;
+    min-height: 150px;
+    padding: 20px;
     background-color: whitesmoke;
-    text-align: center; /* Center-align text */
-    line-height: 1.5; /* Improve text readability */
-    border-radius: 10px; /* Optional: add rounded corners */
-    font-size: 1.2rem; /* Adjust font size */
+    text-align: center;
+    line-height: 1.5;
 
 }
 
