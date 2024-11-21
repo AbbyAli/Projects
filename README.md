@@ -1,2 +1,2 @@
 # Projects
-House my projects in one place!
+House all of my projects in one place!
