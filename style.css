@@ -33,11 +33,17 @@ button {
 #question {
     border: 2px solid black;
     box-sizing: border-box;
-    width: 900px;
-    height: 150px;
-    padding: 50px;
-    margin-left: 370px;
+    max-width: 90%; /* Responsive width */
+    min-height: 150px; /* Ensures minimum height */
+    height: auto; /* Dynamic height based on content */
+    padding: 20px; /* Adjust padding for readability */
+    margin: 20px auto; /* Center box on the page */
     background-color: whitesmoke;
+    text-align: center; /* Center-align text */
+    line-height: 1.5; /* Improve text readability */
+    border-radius: 10px; /* Optional: add rounded corners */
+    font-size: 1.2rem; /* Adjust font size */
+
 }
 
 /** This is for the color of the "Generate" button when someone hovers/clicks on it**/
