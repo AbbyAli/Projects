@@ -1,58 +1,27 @@
-/** The code here is to create a uniform format for text and placement of the content on the page. **/
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Arial, sans-serif;
     text-align: center;
-    box-sizing: border-box;
-    width: 700;
-    height: 300px;
-    padding: 30px;
-    background-color: rgb(223, 241, 252);
-    font-size: 25px;
+    margin: 20px;
 }
 
-/** This is the heading "Icebreaker Questions Generator" Just the margins. **/
-.heading {
-    margin: 50px;
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-p {
-    margin: 50px;
-    font-weight: 100px;
+.question-box {
+    margin: 20px 0;
+    font-size: 1.5rem;
+    color: #333;
 }
 
-}
-
-/** This is for the border around the questions being generated as well as the style of the border **/
-#question {
-    border: 2px solid black;
-    box-sizing: border-box;
-    width: 80%;
-    height: 150px;
-    padding: 50px;
-    background-color: whitesmoke;
-}
-
-/** This is for the style of the "Generate" button and cursor **/
 button {
-    background-color: #3498db;
-    color: white;
-    border: none;
     padding: 10px 20px;
-    font-size: 22px;
-    border-radius: 5px;
+    font-size: 1rem;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin: 2px;
-
 }
 
-/** This is for the color of the "Generate" button when someone hovers/clicks on it**/
-button:hover {
-    background-color: #2980b9;
-
-}
-
-/** Adjusting image dimensions and placement**/
 .fixed-size {
     max-width: 100%;
     height: auto;
