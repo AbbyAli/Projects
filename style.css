@@ -39,11 +39,11 @@ button {
 #question {
     border: 2px solid black;
     box-sizing: border-box;
-    width: 900px;
+    width: 90%;
     height: 150px;
     padding: 50px;
-    margin-left: 370px;
     background-color: whitesmoke;
+}
 
 }
 
