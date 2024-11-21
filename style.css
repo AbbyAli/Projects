@@ -37,7 +37,8 @@ button {
     height: 150px;
     padding: 50px;
     margin-left: 350px;
-    background-color: whitesmoke;}
+    background-color: whitesmoke;
+}
 
 /** This is for the color of the "Generate" button when someone hovers/clicks on it**/
 button:hover {
