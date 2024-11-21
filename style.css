@@ -20,19 +20,6 @@ p {
     font-weight: 100px;
 }
 
-/** This is for the style of th "Generate" button and cursor **/
-button {
-    background-color: #3498db;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 22px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin: 2px;
-
-
 }
 
 /** This is for the border around the questions being generated as well as the style of the border **/
@@ -44,6 +31,18 @@ button {
     padding: 50px;
     background-color: whitesmoke;
 }
+
+/** This is for the style of the "Generate" button and cursor **/
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 22px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 2px;
 
 }
 
