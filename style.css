@@ -33,10 +33,10 @@ button {
 #question {
     border: 2px solid black;
     box-sizing: border-box;
-    width: 800px;
+    width: 900px;
     height: 150px;
     padding: 50px;
-    margin-left: 300px;
+    margin: center;
     background-color: whitesmoke;}
 
 /** This is for the color of the "Generate" button when someone hovers/clicks on it**/
