@@ -8,15 +8,15 @@ body {
     padding: 30px;
     background-color: rgb(223, 241, 252);
     font-size: 25px;}
-
+}
 /** This is the heading "Icebreaker Questions Generator" Just the margins. **/
 .heading {
     margin: 50px;}
-
+}
 p {
     margin: 50px;
     font-weight: 100px;}
-
+}
 /** This is for the style of the "Generate" button and cursor **/
 button {
     background-color: #3498db;
@@ -28,7 +28,7 @@ button {
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin: 2px;}
-
+}
 /** This is for the border around the questions being generated as well as the style of the border **/
 #question {
     .container {
@@ -53,7 +53,7 @@ button {
 /** This is for the color of the "Generate" button when someone hovers/clicks on it**/
 button:hover {
     background-color: #2980b9;}
-
+}
 /** Adjusting image dimensions and placement**/
 .fixed-size {
     width: 800px;
@@ -61,3 +61,4 @@ button:hover {
     height: 500px;
     /* Set the height */
     margin: -50px;}
+}
