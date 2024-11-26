@@ -17,7 +17,7 @@ p {
     margin: 50px;
     font-weight: 100px;}
 
-/** This is for the style of th "Generate" button and cursor **/
+/** This is for the style of the "Generate" button and cursor **/
 button {
     background-color: #3498db;
     color: white;
@@ -37,15 +37,14 @@ button {
     align-items: center; /* Optional: center vertically */
     height: 100vh; /* Optional: full viewport height */
 }
-
+}
 #question {
-    border: 2px solid black;
+    font-weight: 700;
     box-sizing: border-box;
     max-width: 90%;
     width: 900px;
     min-height: 150px;
     padding: 20px;
-    background-color: whitesmoke;
     text-align: center;
     line-height: 1.5;
 
