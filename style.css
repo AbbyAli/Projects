@@ -36,6 +36,7 @@ button {
     justify-content: center; /* Center horizontally */
     align-items: center; /* Optional: center vertically */
     height: 100vh; /* Optional: full viewport height */
+        text-align: center;
 }
 }
 #question {
