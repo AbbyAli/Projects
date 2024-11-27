@@ -39,7 +39,7 @@ button {
         text-align: center;
 }
 }
-#question {
+question {
     font-weight: 700;
     box-sizing: border-box;
     max-width: 90%;
